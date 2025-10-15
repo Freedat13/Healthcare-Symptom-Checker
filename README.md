@@ -49,8 +49,10 @@ pip install Flask Flask-CORS google-genai
 The Python backend securely loads your API key from the environment variable named GEMINI_API_KEY. You must set this variable before running app.py.
 
 Operating System	Command to Set Key
-Linux/macOS	export GEMINI_API_KEY='YOUR_API_KEY_HERE'
-Windows (PowerShell)	$env:GEMINI_API_KEY='YOUR_API_KEY_HERE'
+
+Linux/macOS:	export GEMINI_API_KEY='YOUR_API_KEY_HERE'
+
+Windows (PowerShell):	$env:GEMINI_API_KEY='YOUR_API_KEY_HERE'
 
 (Replace YOUR_API_KEY_HERE with your actual key from Google AI Studio's Created API.)
 
@@ -77,4 +79,5 @@ Click the "Check Symptoms" button.
 
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
+
 
