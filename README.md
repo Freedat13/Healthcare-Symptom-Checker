@@ -46,7 +46,7 @@ symptom_checker/
 ### 2. Install Dependencies
 Open your terminal or command prompt, navigate to the project directory, and install the required Python libraries.
 
-# pip install Flask Flask-CORS google-genai python-dotenv
+#### pip install Flask Flask-CORS google-genai python-dotenv
 
 ### 3. Configure API Key (CRUCIAL STEP)
 The Python backend securely loads your API key from a local file named .env.
@@ -83,4 +83,5 @@ Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to li
 Click the "Check Symptoms" button.
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
+
 
