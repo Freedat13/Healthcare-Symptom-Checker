@@ -54,7 +54,7 @@ Windows (PowerShell)	$env:GEMINI_API_KEY='YOUR_API_KEY_HERE'
 
 (Replace YOUR_API_KEY_HERE with your actual key from Google AI Studio's Created API.)
 
-ex: $env:GEMINI_API_KEY='AIzaSyDlmv7H8TTwu8Kqo7Fi9P5xfmx0iw32XXX'
+ex: $env:GEMINI_API_KEY='AIzaSyDlmv7H8TTwu8Kqo7Fi9P5xfmx0iw329RX'
 
 ▶️ Execution
 1. Run the Python Backend (Terminal 1)
@@ -65,7 +65,9 @@ Keep this terminal window open and running.
 
 2. Run the HTML Frontend (Browser)
 Open the index.html file in your web browser. 
+
 start index.html (or)
+
 This can usually be done by double-clicking the file in your file explorer.
 
 3. Test the Application
@@ -75,3 +77,4 @@ Click the "Check Symptoms" button.
 
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
+
