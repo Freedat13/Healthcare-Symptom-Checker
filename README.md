@@ -29,6 +29,7 @@ LLM Reasoning Trace: Displays a note on the LLM's reasoning quality/complexity f
 Ensure your project directory contains these files:
 
 symptom_checker/
+
 ├── main.py       # Python Backend (Flask + Gemini API, loads .env)
 
 ├── index.html    # HTML Frontend
@@ -79,6 +80,7 @@ Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to li
 Click the "Check Symptoms" button.
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
+
 
 
 
