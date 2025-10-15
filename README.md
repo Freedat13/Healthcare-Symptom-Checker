@@ -49,7 +49,9 @@ Create a file named .env in your project root directory.
 Add your Google AI API key to this file in the following format:
 
 GEMINI_API_KEY='YOUR_API_KEY_HERE'
+
 ex: GEMINI_API_KEY='AIzaSy...your-placeholder...XXX'
+
 ⚠️ CRITICAL: The example above uses a placeholder. Never commit your actual key to a public repository. The included .gitignore file prevents this by ignoring .env.
 
 ### ▶️ Execution
@@ -71,3 +73,4 @@ Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to li
 Click the "Check Symptoms" button.
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
+
