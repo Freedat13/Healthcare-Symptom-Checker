@@ -27,17 +27,20 @@ Ensure your project directory contains these files:
 
 symptom_checker/
 ├── main.py       # Python Backend (Flask + Gemini API, loads .env)
+
 ├── index.html    # HTML Frontend
+
 ├── style.css     # CSS Styling
+
 ├── script.js     # JavaScript Logic
+
 ├── .env          # Stores your secret API key (MUST be ignored by Git)
+
 └── .gitignore    # Configured to ignore the .env file
 
 
 ### 2. Install Dependencies
 Open your terminal or command prompt, navigate to the project directory, and install the required Python libraries.
-
-Bash
 
 pip install Flask Flask-CORS google-genai python-dotenv
 
@@ -73,4 +76,5 @@ Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to li
 Click the "Check Symptoms" button.
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
+
 
