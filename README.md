@@ -62,13 +62,16 @@ ex: GEMINI_API_KEY='AIzaSy...your-placeholder...XXX'
 ⚠️ CRITICAL: The example above uses a placeholder. Never commit your actual key to a public repository. The included .gitignore file prevents this by ignoring .env.
 
 ### ▶️ Execution
-1. Run the Python Backend (Terminal 1)
+1. Run the Python Backend (Terminal 1).
+   
 Open your first terminal window, navigate to the project directory, and start the Flask server. This runs your API on port 5000.
 
-python main.py
+python main.py. 
+
 Keep this terminal window open and running.
 
-2. Run the HTML Frontend (Browser)
+2. Run the HTML Frontend (Browser).
+
 Open the index.html file in your web browser.
 
 start index.html
@@ -80,7 +83,3 @@ Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to li
 Click the "Check Symptoms" button.
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
-
-
-
-
