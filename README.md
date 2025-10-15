@@ -15,11 +15,14 @@ Decoupled Architecture: Clean separation between the Python Flask backend (API) 
 
 LLM Reasoning Trace: Displays a note on the LLM's reasoning quality/complexity for evaluation.
 
-### 💻 Technical Stack
-Component	Technology	Role
-Backend API	Python, Flask, Google GenAI SDK, python-dotenv	Handles API requests, communicates with the Gemini LLM, and enforces structured JSON output.
-Frontend	HTML5, CSS3, JavaScript	User interface for input, displays structured LLM output, handles AJAX communication.
-LLM Service	Google Gemini API (gemini-2.5-flash)	The core reasoning engine that generates health suggestions and disclaimers.
+## 💻 Technical Stack
+
+| Component | Technology | Role |
+| :--- | :--- | :--- |
+| **Backend API** | Python, Flask, Google GenAI SDK, `python-dotenv` | Handles API requests, communicates with the Gemini LLM, and enforces structured JSON output. |
+| **Frontend** | HTML5, CSS3, JavaScript | User interface for input, displays structured LLM output, handles AJAX communication. |
+| **LLM Service** | Google Gemini API (`gemini-2.5-flash`) | The core reasoning engine that generates health suggestions and disclaimers. |
+
 
 ### ⚙️ Setup and Execution
 ### 1. Project Structure
@@ -76,5 +79,6 @@ Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to li
 Click the "Check Symptoms" button.
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
+
 
 
