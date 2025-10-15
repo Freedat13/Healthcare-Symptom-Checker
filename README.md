@@ -53,6 +53,7 @@ Linux/macOS	export GEMINI_API_KEY='YOUR_API_KEY_HERE'
 Windows (PowerShell)	$env:GEMINI_API_KEY='YOUR_API_KEY_HERE'
 
 (Replace YOUR_API_KEY_HERE with your actual key from Google AI Studio's Created API.)
+
 ex: $env:GEMINI_API_KEY='AIzaSyDlmv7H8TTwu8Kqo7Fi9P5xfmx0iw32XXX'
 
 ▶️ Execution
@@ -71,5 +72,6 @@ This can usually be done by double-clicking the file in your file explorer.
 Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to light").
 
 Click the "Check Symptoms" button.
+
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
