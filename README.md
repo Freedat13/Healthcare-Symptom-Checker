@@ -59,7 +59,7 @@ Open your terminal or command prompt, navigate to the project directory, and ins
 
 pip install Flask Flask-CORS google-genai python-dotenv
 
-3. Configure API Key (CRUCIAL STEP)
+### 3. Configure API Key (CRUCIAL STEP)
 The Python backend securely loads your API key from a local file named .env.
 
 Create a file named .env in your project root directory.
@@ -82,7 +82,7 @@ Keep this terminal window open and running.
 Open the index.html file in your web browser.
 
 start index.html 
-# (or simply double-click the file in your file explorer)
+(or simply double-click the file in your file explorer)
 
 3. Test the Application
 Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to light").
@@ -90,3 +90,4 @@ Enter your symptoms (e.g., "Sharp headache behind the eyes and sensitivity to li
 Click the "Check Symptoms" button.
 
 The JavaScript will send the request to the running Python API, the LLM will generate a structured response, and the results will populate the lists on the web page.
+
